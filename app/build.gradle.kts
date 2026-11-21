@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "ch.heigvd.iict.daa.template"
+    namespace = "ch.heigvd.iict.daa.labo4"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "ch.heigvd.iict.daa.template"
+        applicationId = "ch.heigvd.iict.daa.labo4"
         minSdk = 23
         targetSdk = 37
         versionCode = 1

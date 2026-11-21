@@ -1,4 +1,4 @@
-package ch.heigvd.iict.daa.template.database
+package ch.heigvd.iict.daa.labo4.database
 
 import androidx.room3.ColumnTypeConverter
 import java.util.Calendar

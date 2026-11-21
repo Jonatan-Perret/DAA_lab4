@@ -25,12 +25,12 @@ Les tests effectués et leurs résultats sont regroupés à la fin du rapport.
 
 ## Mise en place
 
-Nous sommes partis du projet template de Cyberlearn, en gardant le package `ch.heigvd.iict.daa.template`, qui est aussi celui des entités fournies.
+Nous sommes partis du projet template de Cyberlearn, renommé en `daa-labo4` avec le package `ch.heigvd.iict.daa.labo4`.
 Les fichiers fournis ont été intégrés au projet :
 
 | Fichier | Emplacement |
 | --- | --- |
-| `Note.kt`, `Schedule.kt`, `NoteAndSchedule.kt`, `State.kt`, `Type.kt` | `app/src/main/java/ch/heigvd/iict/daa/template/models/` |
+| `Note.kt`, `Schedule.kt`, `NoteAndSchedule.kt`, `State.kt`, `Type.kt` | `app/src/main/java/ch/heigvd/iict/daa/labo4/models/` (package adapté) |
 | Icônes (`note.xml`, `todo.xml`, `shopping.xml`, `work.xml`, `family.xml`, `clock.xml`, `sort.xml`) | `app/src/main/res/drawable/` |
 
 Les entités fournies importent `androidx.room3` : elles utilisent **Room 3**, la nouvelle version de Room, et pas Room 2 (`androidx.room`).
@@ -68,7 +68,7 @@ dependencies {
 Nous utilisons DataStore 1.2.1 et pas 1.3.0, car la version 1.3.0 demande un `minSdk` de 24 et le template a un `minSdk` de 23.
 Nous avons aussi activé le *View Binding* (`viewBinding = true`) pour accéder aux vues sans `findViewById`.
 
-Le test `ExampleInstrumentedTest` du template échouait, car il attendait le package `ch.heigvd.iict.daa.daabasictemplate`. Nous avons corrigé la valeur attendue.
+Le test `ExampleInstrumentedTest` du template attendait un mauvais nom de package (`ch.heigvd.iict.daa.daabasictemplate`), nous l'avons adapté au nouveau package.
 
 ## L'activité et les fragments
 

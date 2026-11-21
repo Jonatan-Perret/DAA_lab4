@@ -1,4 +1,4 @@
-package ch.heigvd.iict.daa.template.ui
+package ch.heigvd.iict.daa.labo4.ui
 
 import android.content.res.ColorStateList
 import android.view.LayoutInflater
@@ -10,15 +10,15 @@ import androidx.core.widget.ImageViewCompat
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import ch.heigvd.iict.daa.template.R
-import ch.heigvd.iict.daa.template.databinding.ListItemNoteBinding
-import ch.heigvd.iict.daa.template.databinding.ListItemNoteScheduleBinding
-import ch.heigvd.iict.daa.template.models.Note
-import ch.heigvd.iict.daa.template.models.NoteAndSchedule
-import ch.heigvd.iict.daa.template.models.Schedule
-import ch.heigvd.iict.daa.template.models.SortOrder
-import ch.heigvd.iict.daa.template.models.State
-import ch.heigvd.iict.daa.template.models.Type
+import ch.heigvd.iict.daa.labo4.R
+import ch.heigvd.iict.daa.labo4.databinding.ListItemNoteBinding
+import ch.heigvd.iict.daa.labo4.databinding.ListItemNoteScheduleBinding
+import ch.heigvd.iict.daa.labo4.models.Note
+import ch.heigvd.iict.daa.labo4.models.NoteAndSchedule
+import ch.heigvd.iict.daa.labo4.models.Schedule
+import ch.heigvd.iict.daa.labo4.models.SortOrder
+import ch.heigvd.iict.daa.labo4.models.State
+import ch.heigvd.iict.daa.labo4.models.Type
 import com.google.android.material.color.MaterialColors
 import java.text.DateFormat
 import java.util.Calendar

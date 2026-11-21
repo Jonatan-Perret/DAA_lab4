@@ -1,13 +1,13 @@
-package ch.heigvd.iict.daa.template.database
+package ch.heigvd.iict.daa.labo4.database
 
 import androidx.lifecycle.LiveData
 import androidx.room3.Dao
 import androidx.room3.Insert
 import androidx.room3.Query
 import androidx.room3.Transaction
-import ch.heigvd.iict.daa.template.models.Note
-import ch.heigvd.iict.daa.template.models.NoteAndSchedule
-import ch.heigvd.iict.daa.template.models.Schedule
+import ch.heigvd.iict.daa.labo4.models.Note
+import ch.heigvd.iict.daa.labo4.models.NoteAndSchedule
+import ch.heigvd.iict.daa.labo4.models.Schedule
 
 /**
  * Auteurs : François de Courville, Jonatan Perret

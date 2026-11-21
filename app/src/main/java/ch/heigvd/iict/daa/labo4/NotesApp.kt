@@ -1,13 +1,13 @@
-package ch.heigvd.iict.daa.template
+package ch.heigvd.iict.daa.labo4
 
 import android.app.Application
 import android.content.Context
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.preferencesDataStore
-import ch.heigvd.iict.daa.template.database.NotesDatabase
-import ch.heigvd.iict.daa.template.repository.NotesRepository
-import ch.heigvd.iict.daa.template.repository.SortPreferencesRepository
+import ch.heigvd.iict.daa.labo4.database.NotesDatabase
+import ch.heigvd.iict.daa.labo4.repository.NotesRepository
+import ch.heigvd.iict.daa.labo4.repository.SortPreferencesRepository
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.SupervisorJob
 

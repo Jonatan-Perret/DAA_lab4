@@ -1,4 +1,4 @@
-package ch.heigvd.iict.daa.template
+package ch.heigvd.iict.daa.labo4
 
 import android.os.Bundle
 import android.view.Menu
@@ -8,8 +8,8 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import ch.heigvd.iict.daa.template.models.SortOrder
-import ch.heigvd.iict.daa.template.viewmodel.NotesViewModel
+import ch.heigvd.iict.daa.labo4.models.SortOrder
+import ch.heigvd.iict.daa.labo4.viewmodel.NotesViewModel
 
 /**
  * Auteurs : François de Courville, Jonatan Perret

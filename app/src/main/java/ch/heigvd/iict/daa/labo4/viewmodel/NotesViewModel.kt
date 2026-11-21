@@ -1,4 +1,4 @@
-package ch.heigvd.iict.daa.template.viewmodel
+package ch.heigvd.iict.daa.labo4.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
@@ -7,11 +7,11 @@ import androidx.lifecycle.ViewModelProvider.AndroidViewModelFactory.Companion.AP
 import androidx.lifecycle.asLiveData
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
-import ch.heigvd.iict.daa.template.NotesApp
-import ch.heigvd.iict.daa.template.models.NoteAndSchedule
-import ch.heigvd.iict.daa.template.models.SortOrder
-import ch.heigvd.iict.daa.template.repository.NotesRepository
-import ch.heigvd.iict.daa.template.repository.SortPreferencesRepository
+import ch.heigvd.iict.daa.labo4.NotesApp
+import ch.heigvd.iict.daa.labo4.models.NoteAndSchedule
+import ch.heigvd.iict.daa.labo4.models.SortOrder
+import ch.heigvd.iict.daa.labo4.repository.NotesRepository
+import ch.heigvd.iict.daa.labo4.repository.SortPreferencesRepository
 
 /**
  * Auteurs : François de Courville, Jonatan Perret

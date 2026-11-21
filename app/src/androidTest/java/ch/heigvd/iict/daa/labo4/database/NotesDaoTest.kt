@@ -1,13 +1,13 @@
-package ch.heigvd.iict.daa.template.database
+package ch.heigvd.iict.daa.labo4.database
 
 import androidx.lifecycle.asFlow
 import androidx.room3.Room
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
-import ch.heigvd.iict.daa.template.models.Note
-import ch.heigvd.iict.daa.template.models.Schedule
-import ch.heigvd.iict.daa.template.models.State
-import ch.heigvd.iict.daa.template.models.Type
+import ch.heigvd.iict.daa.labo4.models.Note
+import ch.heigvd.iict.daa.labo4.models.Schedule
+import ch.heigvd.iict.daa.labo4.models.State
+import ch.heigvd.iict.daa.labo4.models.Type
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.runBlocking
 import org.junit.After

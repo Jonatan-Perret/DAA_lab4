@@ -1,11 +1,11 @@
-package ch.heigvd.iict.daa.template.repository
+package ch.heigvd.iict.daa.labo4.repository
 
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.core.emptyPreferences
 import androidx.datastore.preferences.core.stringPreferencesKey
-import ch.heigvd.iict.daa.template.models.SortOrder
+import ch.heigvd.iict.daa.labo4.models.SortOrder
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.catch

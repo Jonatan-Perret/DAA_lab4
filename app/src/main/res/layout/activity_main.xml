@@ -9,7 +9,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/notes_list_fragment"
-        android:name="ch.heigvd.iict.daa.template.ui.NotesListFragment"
+        android:name="ch.heigvd.iict.daa.labo4.ui.NotesListFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

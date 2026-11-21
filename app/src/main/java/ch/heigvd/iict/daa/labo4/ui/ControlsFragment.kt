@@ -1,12 +1,12 @@
-package ch.heigvd.iict.daa.template.ui
+package ch.heigvd.iict.daa.labo4.ui
 
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
-import ch.heigvd.iict.daa.template.R
-import ch.heigvd.iict.daa.template.databinding.FragmentControlsBinding
-import ch.heigvd.iict.daa.template.viewmodel.NotesViewModel
+import ch.heigvd.iict.daa.labo4.R
+import ch.heigvd.iict.daa.labo4.databinding.FragmentControlsBinding
+import ch.heigvd.iict.daa.labo4.viewmodel.NotesViewModel
 import java.text.NumberFormat
 
 /**

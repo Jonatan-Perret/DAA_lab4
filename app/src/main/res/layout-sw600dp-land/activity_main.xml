@@ -11,7 +11,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/controls_fragment"
-        android:name="ch.heigvd.iict.daa.template.ui.ControlsFragment"
+        android:name="ch.heigvd.iict.daa.labo4.ui.ControlsFragment"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1" />
@@ -22,7 +22,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/notes_list_fragment"
-        android:name="ch.heigvd.iict.daa.template.ui.NotesListFragment"
+        android:name="ch.heigvd.iict.daa.labo4.ui.NotesListFragment"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="2" />

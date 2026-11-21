@@ -1,9 +1,9 @@
-package ch.heigvd.iict.daa.template.repository
+package ch.heigvd.iict.daa.labo4.repository
 
 import androidx.lifecycle.LiveData
-import ch.heigvd.iict.daa.template.database.NotesDao
-import ch.heigvd.iict.daa.template.models.Note
-import ch.heigvd.iict.daa.template.models.NoteAndSchedule
+import ch.heigvd.iict.daa.labo4.database.NotesDao
+import ch.heigvd.iict.daa.labo4.models.Note
+import ch.heigvd.iict.daa.labo4.models.NoteAndSchedule
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 

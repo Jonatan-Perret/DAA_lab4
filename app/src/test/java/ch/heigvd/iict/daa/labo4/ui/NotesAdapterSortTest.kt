@@ -1,11 +1,11 @@
-package ch.heigvd.iict.daa.template.ui
+package ch.heigvd.iict.daa.labo4.ui
 
-import ch.heigvd.iict.daa.template.models.Note
-import ch.heigvd.iict.daa.template.models.NoteAndSchedule
-import ch.heigvd.iict.daa.template.models.Schedule
-import ch.heigvd.iict.daa.template.models.SortOrder
-import ch.heigvd.iict.daa.template.models.State
-import ch.heigvd.iict.daa.template.models.Type
+import ch.heigvd.iict.daa.labo4.models.Note
+import ch.heigvd.iict.daa.labo4.models.NoteAndSchedule
+import ch.heigvd.iict.daa.labo4.models.Schedule
+import ch.heigvd.iict.daa.labo4.models.SortOrder
+import ch.heigvd.iict.daa.labo4.models.State
+import ch.heigvd.iict.daa.labo4.models.Type
 import org.junit.Assert.assertEquals
 import org.junit.Test
 import java.util.Calendar

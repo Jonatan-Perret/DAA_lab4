@@ -1,4 +1,4 @@
-package ch.heigvd.iict.daa.template.database
+package ch.heigvd.iict.daa.labo4.database
 
 import android.content.Context
 import androidx.room3.ColumnTypeConverters
@@ -8,8 +8,8 @@ import androidx.room3.Room
 import androidx.room3.RoomDatabase
 import androidx.room3.livedata.LiveDataDaoReturnTypeConverter
 import androidx.sqlite.SQLiteConnection
-import ch.heigvd.iict.daa.template.models.Note
-import ch.heigvd.iict.daa.template.models.Schedule
+import ch.heigvd.iict.daa.labo4.models.Note
+import ch.heigvd.iict.daa.labo4.models.Schedule
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 import java.util.Calendar
