@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">DAA Labo 4</string>
+
+    <!-- Menu -->
+    <string name="menu_sort">Trier</string>
+    <string name="menu_sort_creation_date">Par date de création</string>
+    <string name="menu_sort_schedule_date">Par date prévue</string>
+    <string name="menu_generate">Générer une note</string>
+    <string name="menu_delete_all">Supprimer toutes les notes</string>
+
+    <!-- Fragment de contrôle (tablette) -->
+    <string name="controls_count_label">Nombre de notes</string>
+    <string name="controls_generate">Générer une note</string>
+    <string name="controls_delete_all">Supprimer toutes les notes</string>
+
+    <!-- Liste des notes -->
+    <string name="notes_empty">Aucune note</string>
+    <string name="note_info">%1$s · créée le %2$s</string>
+    <string name="schedule_late">En retard</string>
+    <string name="schedule_today">Aujourd\'hui</string>
+    <plurals name="schedule_in_days">
+        <item quantity="one">Dans %d jour</item>
+        <item quantity="other">Dans %d jours</item>
+    </plurals>
+    <plurals name="schedule_days_ago">
+        <item quantity="one">Il y a %d jour</item>
+        <item quantity="other">Il y a %d jours</item>
+    </plurals>
+    <string name="schedule_icon_description">Échéance</string>
+
+    <!-- États -->
+    <string name="state_in_progress">En cours</string>
+    <string name="state_done">Terminée</string>
+
+    <!-- Types (descriptions d'accessibilité des icônes) -->
+    <string name="type_none">Note</string>
+    <string name="type_todo">Todo</string>
+    <string name="type_shopping">Shopping</string>
+    <string name="type_work">Travail</string>
+    <string name="type_family">Famille</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Variantes plus claires pour rester lisibles sur fond sombre -->
+    <color name="note_done">#81C784</color>
+    <color name="note_in_progress">#BDBDBD</color>
+    <color name="note_late">#EF9A9A</color>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Menu smartphone (et tablette en portrait) : tri + création / suppression des notes -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_sort"
+        android:icon="@drawable/sort"
+        android:title="@string/menu_sort"
+        app:showAsAction="ifRoom">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu_sort_creation_date"
+                    android:title="@string/menu_sort_creation_date" />
+                <item
+                    android:id="@+id/menu_sort_schedule_date"
+                    android:title="@string/menu_sort_schedule_date" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_generate"
+        android:title="@string/menu_generate"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_delete_all"
+        android:title="@string/menu_delete_all"
+        app:showAsAction="never" />
+</menu>

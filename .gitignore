@@ -1,0 +1,22 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+/.idea/deploymentTargetDropDown.xml
+.kotlin
+
+# Supports de cours (non publiés) : la donnée, les règles et le code fourni (déjà intégré dans app/)
+/Labo4_Donn*.pdf
+/R*gles laboratoires 2026.pdf
+/code fourni/

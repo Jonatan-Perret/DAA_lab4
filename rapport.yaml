@@ -1,0 +1,33 @@
+# Génération du PDF du rapport : pandoc -d rapport.yaml
+input-files: [RAPPORT.md]
+output-file: rapport.pdf
+pdf-engine: typst
+syntax-highlighting: idiomatic
+variables:
+  lang: fr
+  papersize: a4
+  margin: { x: 2.2cm, y: 2.2cm }
+  fontsize: 10.5pt
+  header-includes: |
+    // tableaux : texte aligné à gauche
+    #show table.cell: set align(left)
+    #show table.cell: set par(justify: false)
+    #show list: set par(justify: false)
+    // questions de la donnée : barre latérale et italique
+    #show quote.where(block: true): it => block(
+      inset: (left: 1em, y: 0.3em),
+      stroke: (left: 2pt + luma(170)),
+      emph(it.body),
+    )
+    // blocs de code sur fond gris
+    #show raw.where(block: true): it => block(
+      fill: luma(245), inset: 8pt, radius: 3pt, width: 100%, text(size: 0.9em, it),
+    )
+    #show figure: set block(spacing: 1.2em)
+    #show heading.where(level: 2): set block(above: 1.6em, below: 0.8em)
+    #show heading.where(level: 3): set block(above: 1.3em, below: 0.7em)
+    // page de titre : l'introduction commence sur une nouvelle page
+    #show heading.where(level: 2): it => {
+      if it.body == [Introduction] { pagebreak(weak: true) }
+      it
+    }

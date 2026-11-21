@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">@android:color/black</color>
+    <color name="white">@android:color/white</color>
+
+    <!-- Teintes appliquées aux notes selon leur état / leur échéance -->
+    <color name="note_done">#2E7D32</color>
+    <color name="note_in_progress">#757575</color>
+    <color name="note_late">#C62828</color>
+</resources>
